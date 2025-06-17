@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_3" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="rortiz_HW2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dpm-Uq-JWe">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="XdR-nt-yW8">
+                                <rect key="frame" x="20" y="62" width="362" height="152"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pyc-QQ-qRZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="362" height="34.333333333333336"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L9B-a1-mCo">
+                                                <rect key="frame" x="0.0" y="0.0" width="83" height="34.333333333333336"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rs2-A3-RUn">
+                                                        <rect key="frame" x="0.0" y="0.0" width="83" height="34.333333333333336"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Red">
+                                                            <color key="baseBackgroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="routeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mz4-fO-oBJ"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C8S-r1-KgN">
+                                                <rect key="frame" x="93" y="0.0" width="83" height="34.333333333333336"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9v-7o-dyt">
+                                                        <rect key="frame" x="0.0" y="0.0" width="83" height="34.333333333333336"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Blue">
+                                                            <color key="baseBackgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="routeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ovY-E5-6hf"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ANx-4L-h4y">
+                                                <rect key="frame" x="186" y="0.0" width="83" height="34.333333333333336"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZ1-dy-K1i">
+                                                        <rect key="frame" x="0.0" y="0.0" width="83" height="34.333333333333336"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Brown">
+                                                            <color key="baseBackgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="routeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FGj-rz-7dT"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aR2-oD-tCK">
+                                                <rect key="frame" x="279" y="0.0" width="83" height="34.333333333333336"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MGk-lJ-caj">
+                                                        <rect key="frame" x="0.0" y="0.0" width="83" height="34.333333333333336"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Green">
+                                                            <color key="baseBackgroundColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="routeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mJn-4K-bY4"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZXn-2L-LA7">
+                                        <rect key="frame" x="0.0" y="49.333333333333329" width="362" height="34.333333333333329"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mfc-E0-Caz">
+                                                <rect key="frame" x="0.0" y="0.0" width="83" height="34.333333333333336"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XEy-RO-a49">
+                                                        <rect key="frame" x="0.0" y="0.0" width="83" height="34.333333333333336"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Orange">
+                                                            <color key="baseBackgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="routeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CEQ-dv-fiN"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f0w-MV-TUC">
+                                                <rect key="frame" x="93" y="0.0" width="83" height="34.333333333333336"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jFZ-4Q-wjP">
+                                                        <rect key="frame" x="0.0" y="0.0" width="83" height="34.333333333333336"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Purple">
+                                                            <color key="baseBackgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="routeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kmt-eC-MdC"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="86z-9N-BTx">
+                                                <rect key="frame" x="186" y="0.0" width="83" height="34.333333333333336"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4S9-Hz-n58">
+                                                        <rect key="frame" x="0.0" y="0.0" width="83" height="34.333333333333336"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Pink">
+                                                            <color key="baseBackgroundColor" red="1" green="0.52120530610000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="routeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ub6-dI-sJM"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ej-L9-UD9">
+                                                <rect key="frame" x="279" y="0.0" width="83" height="34.333333333333336"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZN-ov-SGw">
+                                                        <rect key="frame" x="0.0" y="0.0" width="83" height="34.333333333333336"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Yellow">
+                                                            <color key="baseBackgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="routeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zLt-7y-uvl"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L6c-wJ-oxT">
+                                        <rect key="frame" x="0.0" y="98.666666666666657" width="362" height="53.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Submit"/>
+                                        <connections>
+                                            <action selector="submitButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mN4-jb-MCS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bWn-w2-iqB">
+                                <rect key="frame" x="20" y="234" width="362" height="586"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TrainCell" textLabel="JVS-R6-zE6" detailTextLabel="WfH-El-IRW" style="IBUITableViewCellStyleSubtitle" id="aV7-3j-X3L">
+                                        <rect key="frame" x="0.0" y="50" width="362" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aV7-3j-X3L" id="1pa-v5-j1r">
+                                            <rect key="frame" x="0.0" y="0.0" width="331.66666666666669" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JVS-R6-zE6">
+                                                    <rect key="frame" x="20" y="6.0000000000000009" width="25" height="14.333333333333334"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WfH-El-IRW">
+                                                    <rect key="frame" x="19.999999999999996" y="22.333333333333336" width="43.666666666666664" height="14.333333333333334"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="72I-x6-mxg" kind="showDetail" identifier="showDetails" id="Uff-aO-qeP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0vD-ja-Fyu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bWn-w2-iqB" firstAttribute="top" secondItem="XdR-nt-yW8" secondAttribute="bottom" constant="20" id="Ncc-yY-YAR"/>
+                            <constraint firstItem="0vD-ja-Fyu" firstAttribute="trailing" secondItem="XdR-nt-yW8" secondAttribute="trailing" constant="20" id="UhC-37-Kj2"/>
+                            <constraint firstItem="XdR-nt-yW8" firstAttribute="top" secondItem="0vD-ja-Fyu" secondAttribute="top" id="Xsy-5s-iRw"/>
+                            <constraint firstItem="bWn-w2-iqB" firstAttribute="leading" secondItem="0vD-ja-Fyu" secondAttribute="leading" constant="20" id="n8u-Kc-Vj3"/>
+                            <constraint firstItem="0vD-ja-Fyu" firstAttribute="bottom" secondItem="XdR-nt-yW8" secondAttribute="bottom" constant="626" id="q58-WT-7zd"/>
+                            <constraint firstItem="XdR-nt-yW8" firstAttribute="leading" secondItem="0vD-ja-Fyu" secondAttribute="leading" constant="20" id="s4W-wv-TFa"/>
+                            <constraint firstItem="0vD-ja-Fyu" firstAttribute="trailing" secondItem="bWn-w2-iqB" secondAttribute="trailing" constant="20" id="xJc-To-6rP"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="bWn-w2-iqB" secondAttribute="bottom" constant="20" id="xoP-vl-jym"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blueButton" destination="P9v-7o-dyt" id="tU3-e4-ubh"/>
+                        <outlet property="brownButton" destination="SZ1-dy-K1i" id="8sv-UR-0Zs"/>
+                        <outlet property="greenButton" destination="MGk-lJ-caj" id="tth-8s-5eW"/>
+                        <outlet property="orangeButton" destination="XEy-RO-a49" id="OK7-qL-yQL"/>
+                        <outlet property="pinkButton" destination="4S9-Hz-n58" id="sfg-7H-XZj"/>
+                        <outlet property="purpleButton" destination="jFZ-4Q-wjP" id="Bkd-e6-l8z"/>
+                        <outlet property="redButton" destination="Rs2-A3-RUn" id="qw5-8k-Y7R"/>
+                        <outlet property="submitButton" destination="L6c-wJ-oxT" id="UtM-Ph-qO7"/>
+                        <outlet property="tableView" destination="bWn-w2-iqB" id="eDm-K1-QeR"/>
+                        <outlet property="yellowButton" destination="jZN-ov-SGw" id="yiw-hF-p0x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-61.194029850746269" y="3.432494279176201"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="ekY-9v-Ncf">
+            <objects>
+                <viewController id="72I-x6-mxg" customClass="CTADetailsViewController" customModule="rortiz_HW2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="66y-Hf-u9F">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="864"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="20v-f4-yqM">
+                                <rect key="frame" x="20" y="40" width="362" height="804"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DetailCell" textLabel="Ssi-by-Wom" style="IBUITableViewCellStyleDefault" id="Gbd-37-IcG">
+                                        <rect key="frame" x="0.0" y="50" width="362" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Gbd-37-IcG" id="4Ej-IF-GDd">
+                                            <rect key="frame" x="0.0" y="0.0" width="362" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ssi-by-Wom">
+                                                    <rect key="frame" x="20" y="0.0" width="322" height="43.666667938232422"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rx5-P1-hQY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="20v-f4-yqM" firstAttribute="top" secondItem="rx5-P1-hQY" secondAttribute="top" constant="40" id="5FL-mF-Iqw"/>
+                            <constraint firstItem="rx5-P1-hQY" firstAttribute="trailing" secondItem="20v-f4-yqM" secondAttribute="trailing" constant="20" id="8eu-Ic-5HU"/>
+                            <constraint firstItem="20v-f4-yqM" firstAttribute="leading" secondItem="rx5-P1-hQY" secondAttribute="leading" constant="20" id="J1W-x0-0Ax"/>
+                            <constraint firstItem="rx5-P1-hQY" firstAttribute="bottom" secondItem="20v-f4-yqM" secondAttribute="bottom" constant="20" id="gbr-bf-ZaD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Rmc-IG-2OV"/>
+                    <connections>
+                        <outlet property="CTADetailsTableView" destination="20v-f4-yqM" id="e7f-hO-1eM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zQJ-U9-8H6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="782" y="3"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
