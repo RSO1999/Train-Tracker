@@ -21,7 +21,7 @@ This SwiftUI application allows users to view real-time positions of CTA ‘L’
 
 ### 2. Insert Your API Key
 - Open the following file in the project:  
-  `CTANetworkService.swift`
+  `rortiz_HW2/rortiz_HW2/CTATrainLocationResponse.swift`
 - Locate this line:
   ```swift
   private let apiKey = "YOUR_API_KEY_HERE"
