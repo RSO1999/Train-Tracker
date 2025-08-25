@@ -25,3 +25,9 @@ This SwiftUI application allows users to view real-time positions of CTA ‘L’
 - Locate this line:
   ```swift
   private let apiKey = "YOUR_API_KEY_HERE"
+
+### 3. App Demo
+
+file:///Users/Ryan/Downloads/train-tracker%20demo.gif 
+
+  
