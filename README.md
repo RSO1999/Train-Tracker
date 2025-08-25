@@ -32,7 +32,7 @@ This SwiftUI application allows users to view real-time positions of CTA ‘L’
 
 ![train-tracker pt 3 demo](https://github.com/user-attachments/assets/8beaab69-843c-46db-ac6f-425526a394af)!
 
-[train-tracker pt4 demo](https://github.com/user-attachments/assets/ef00c4a9-ef22-4b9d-9b0c-8d1478b5edd6)
+![train-tracker pt4 demo](https://github.com/user-attachments/assets/0d5338fd-56e5-4bcb-ba26-ab86cfad932e)
 
 
 
